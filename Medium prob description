@@ -1,0 +1,16 @@
+Given an integer array of size n, find all elements that appear more than ⌊ n/3 ⌋ times.
+
+Example 1:
+
+Input: nums = [3,2,3]
+Output: [3]
+
+
+* Create a function called majority_elements().
+* Initialize two elements element1, element2 and their respective counts count1, count2 to None and 0.
+* Check if current number is a element if so increment its count .
+* Check if one of the element's count reaches 0, replace it with the current number.
+* Check if the current number is different from both element, decrement their counts.
+* Verify the elements by counting thier occurrences.
+* Check if the counts of the elements exceeds ⌊ n/3 ⌋ and add those candidates to the 'result'.
+* Print the result.
