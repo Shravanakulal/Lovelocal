@@ -1,0 +1,17 @@
+Given a string s consisting of words and spaces, return the length of the last word in the string.
+A word is a maximal 
+substring consisting of non-space characters only.
+
+
+Example :
+Input: s = "Hello World"
+Output: 5
+Explanation: The last word is "World" with length 5.
+
+* Create a function that takes strings as input.
+* Use split() to split thr string 's'.
+* Check if the list of words is empty if there is no words or consists of only whitespaces return 0.
+* Return the length of lasy word.
+* provide the input string.
+* Result will be stored in the variable 'result'.
+* Print the result
