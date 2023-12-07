@@ -1,0 +1,17 @@
+You are given a string s. You can convert s to a 
+palindrome by adding characters in front of it.
+Return the shortest palindrome you can find by performing this transformation.
+
+Example 1:
+
+Input: s = "aacecaaa"
+Output: "aaacecaaa"
+
+* Create the function 'short_p' that takes string 's' as input.
+* Check if 's' is empty , if empty then there is no palindrome created.
+* Modify the string s by appending the reverse of s to s by adding '#' in between.
+* Compute the prefix array, this array helps find the length of the longest pallindromic prefix.
+* Then the shortest palindrome is created by taking a substring of s from the length of the longest palindromic prefix to the end, reversing it, and then appending it to the original string s.
+* Provide the input string.
+* The result is stored in the variable 'output'.
+* Print the output.
